@@ -67,7 +67,7 @@ a = " Hello, World! "
 print(a.strip())
 
 #Replace String
-a = "Hello, World!"
+a = "Hello, Keerthi!"
 print(a.replace("H", "J"))
 
 #Split String
