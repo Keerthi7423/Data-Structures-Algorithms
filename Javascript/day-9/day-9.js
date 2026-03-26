@@ -19,4 +19,4 @@ console.log(cleanText.replace("Learning", "Practice"));
 console.log(cleanText.slice(0, 10));
 
 // Includes
-console.log(cleanText.includes("Java"));
+console.log(cleanText.includes("Javascript"));
