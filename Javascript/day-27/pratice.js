@@ -1,0 +1,109 @@
+// // // // // // // // // // // // // // // // // // // // 1) Simple arrow function
+// // // // // // // // // // // // // // // // // // // let greet = () => {
+// // // // // // // // // // // // // // // // // // //     console.log("Hello");
+// // // // // // // // // // // // // // // // // // // };
+
+// // // // // // // // // // // // // // // // // // // greet();
+
+// // // // // // // // // // // // // // // // // // // 2) Arrow function with parameter
+// // // // // // // // // // // // // // // // // // let greet = name => {
+// // // // // // // // // // // // // // // // // //     console.log("Hello " + name);
+// // // // // // // // // // // // // // // // // // };
+
+// // // // // // // // // // // // // // // // // // greet("Keerthi");
+
+
+// // // // // // // // // // // // // // // // // // 3) Arrow function returning value
+// // // // // // // // // // // // // // // // // let add = (a, b) => {
+// // // // // // // // // // // // // // // // //     return a + b;
+// // // // // // // // // // // // // // // // // };
+
+// // // // // // // // // // // // // // // // // console.log(add(5, 10));
+
+// // // // // // // // // // // // // // // // // 4) Short return (implicit return)
+// // // // // // // // // // // // // // // // let add = (a, b) => a + b;
+
+// // // // // // // // // // // // // // // // console.log(add(2, 3));
+
+
+// // // // // // // // // // // // // // // // 5) Square number
+// // // // // // // // // // // // // // // let square = num => num * num;
+
+// // // // // // // // // // // // // // // console.log(square(4));
+
+// // // // // // // // // // // // // // 6) Even or odd
+
+// // // // // // // // // // // // // let check = num => (num % 2 === 0 ? "Even" : "Odd");
+
+// // // // // // // // // // // // // console.log(check(7));
+
+// // // // // // // // // // // // // 7) Max of two numbers
+// // // // // // // // // // // // let max = (a, b) => (a > b ? a : b);
+
+// // // // // // // // // // // // console.log(max(10, 20));
+
+// // // // // // // // // // // // 8) Reverse string
+// // // // // // // // // // // let reverse = str => {
+// // // // // // // // // // //     let result = "";
+// // // // // // // // // // //     for (let i = str.length - 1; i >= 0; i--) {
+// // // // // // // // // // //         result += str[i];
+// // // // // // // // // // //     }
+// // // // // // // // // // //     return result;
+// // // // // // // // // // // };
+
+// // // // // // // // // // // console.log(reverse("JS"));
+
+// // // // // // // // // // 9) Sum of array
+// // // // // // // // // let sumArray = arr => {
+// // // // // // // // //     let sum = 0;
+// // // // // // // // //     for (let i = 0; i < arr.length; i++) {
+// // // // // // // // //         sum += arr[i];
+// // // // // // // // //     }
+// // // // // // // // //     return sum;
+// // // // // // // // // };
+
+// // // // // // // // // console.log(sumArray([1, 2, 3]));
+
+// // // // // // // // // 10) Count vowels
+// // // // // // // // let countVowels = str => {
+// // // // // // // //     let count = 0;
+
+// // // // // // // //     for (let ch of str.toLowerCase()) {
+// // // // // // // //         if ("aeiou".includes(ch)) {
+// // // // // // // //             count++;
+// // // // // // // //         }
+// // // // // // // //     }
+
+// // // // // // // //     return count;
+// // // // // // // // };
+
+// // // // // // // // console.log(countVowels("Keerthi"));
+
+
+// // // // // // // 11) Double array using map
+// // // // // // let double = arr => arr.map(num => num * 2);
+
+// // // // // // console.log(double([1, 2, 3]));
+
+// // // // // 12) Filter even numbers
+// // // // let even = arr => arr.filter(num => num % 2 === 0);
+
+// // // // console.log(even([1, 2, 3, 4]));
+
+// // // 13) Sum using reduce
+// // let sum = arr => arr.reduce((acc, num) => acc + num, 0);
+
+// // console.log(sum([1, 2, 3]));
+
+// // 14) Return object
+// let createUser = (name, age) => ({
+//     name: name,
+//     age: age
+// });
+
+// console.log(createUser("Keerthi", 22));
+
+// 15) Callback with arrow function
+let process = (num, fn) => fn(num);
+
+console.log(process(5, x => x * 2));
