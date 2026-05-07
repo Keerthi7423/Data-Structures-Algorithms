@@ -1,0 +1,239 @@
+FULL LEETCODE + DSA MASTER STRATEGY (WORKING PROFESSIONAL MODE)
+
+Target: JPMorgan Chase + Google
+Goal: Master problem solving (not just solving problems)
+
+==================================================
+0. REALITY CHECK (IMPORTANT)
+============================
+
+You cannot realistically solve ALL LeetCode problems.
+
+Correct Goal:
+
+* Master all IMPORTANT patterns
+* Solve 200–350 problems deeply
+
+Rule:
+Quality > Quantity
+
+==================================================
+
+1. CORE PRINCIPLE
+   ==================================================
+
+1 Problem = Deep Mastery
+
+For each problem:
+
+* Understand
+* Solve
+* Optimize
+* Re-solve
+* Explain
+
+If you cannot explain → you don’t know it
+
+==================================================
+2. DAILY SYSTEM (OFFICE FRIENDLY)
+=================================
+
+Time: 60–90 minutes/day
+
+Step 1 (10 min):
+Understand problem
+
+Step 2 (20–30 min):
+Try yourself (brute force)
+
+Step 3 (15 min):
+Learn optimal solution
+
+Step 4 (15–20 min):
+Rewrite without seeing
+
+Step 5 (10 min):
+Explain out loud
+
+==================================================
+3. REVISION SYSTEM (MOST IMPORTANT)
+===================================
+
+Day 1 → Solve
+Day 2 → Re-solve
+Day 7 → Re-solve
+Day 15 → Re-solve
+
+If forgotten → redo fully
+
+==================================================
+4. WEEKLY STRUCTURE
+===================
+
+Monday–Friday:
+
+* 1 new problem per day
+
+Saturday:
+
+* Revise all 5 problems
+
+Sunday:
+
+* Re-solve without hints
+
+==================================================
+5. TOPIC ROADMAP (IN ORDER)
+===========================
+
+PHASE 1 (Weeks 1–4)
+Arrays + Strings + HashMap
+
+PHASE 2 (Weeks 5–8)
+Two Pointers + Sliding Window
+
+PHASE 3 (Weeks 9–12)
+Stack + Queue + Linked List
+
+PHASE 4 (Weeks 13–20)
+Trees + Graphs
+
+PHASE 5 (Weeks 21–30)
+Dynamic Programming
+
+==================================================
+6. MUST MASTER PATTERNS
+=======================
+
+1. Array + HashMap
+2. String manipulation
+3. Two pointers
+4. Sliding window
+5. Prefix sum
+6. Stack
+7. BFS / DFS
+8. Dynamic programming
+
+==================================================
+7. CORE PROBLEM LIST (START HERE)
+=================================
+
+ARRAY / HASHMAP
+
+* Two Sum
+* Contains Duplicate
+* Majority Element
+* Intersection of Arrays
+
+STRING
+
+* Valid Palindrome
+* Valid Anagram
+* Reverse String
+* Longest Common Prefix
+
+TWO POINTERS
+
+* Move Zeroes
+* Remove Duplicates
+* Container With Most Water
+
+SLIDING WINDOW
+
+* Maximum Subarray
+* Longest Substring Without Repeating Characters
+* Minimum Window Substring
+
+STACK
+
+* Valid Parentheses
+* Min Stack
+
+LINKED LIST
+
+* Reverse Linked List
+* Merge Two Sorted Lists
+* Linked List Cycle
+
+TREES
+
+* Maximum Depth of Binary Tree
+* Same Tree
+* Invert Binary Tree
+
+GRAPHS
+
+* Number of Islands
+* Clone Graph
+* Course Schedule
+
+DP
+
+* Climbing Stairs
+* House Robber
+* Coin Change
+
+==================================================
+8. PROBLEM TARGET
+=================
+
+Month 1:
+
+* 30 problems (deep mastery)
+
+Month 3:
+
+* 100 problems
+
+Month 6:
+
+* 200 problems
+
+Month 9–12:
+
+* 300+ problems
+
+==================================================
+9. INTERVIEW PREPARATION
+========================
+
+Practice:
+
+* Explain logic clearly
+* Think out loud
+* Write clean code
+* Handle edge cases
+
+==================================================
+10. COMMON MISTAKES
+===================
+
+* Solving without understanding ❌
+* Skipping revision ❌
+* Jumping topics ❌
+* Copy-paste code ❌
+
+==================================================
+11. PROJECT + DSA BALANCE
+=========================
+
+Weekdays:
+
+* DSA
+
+Weekends:
+
+* Projects
+
+==================================================
+12. FINAL GOAL
+==============
+
+* Strong problem solving
+* Pattern mastery
+* 300+ problems solved
+* Ready for JPMorgan & Google interviews
+
+==================================================
+END
+===
