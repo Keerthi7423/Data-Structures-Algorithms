@@ -1,3 +1,5 @@
+// Brute Force Approach
+
 function maxSubArray(nums){
 
     let maxSum = -Infinity;
