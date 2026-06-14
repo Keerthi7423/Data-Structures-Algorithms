@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "productName",
+      "request": "launch",
+      "mainClass": "productName",
+      "projectName": "Data Structure & Algorithms_3f9172e8"
+    },
+    {
+      "type": "java",
+      "name": "HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "Data Structure & Algorithms_3f9172e8"
+    },
+    {
+      "type": "java",
       "name": "StudentInfo",
       "request": "launch",
       "mainClass": "StudentInfo",
