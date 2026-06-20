@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Program3",
+      "request": "launch",
+      "mainClass": "Program3",
+      "projectName": "Data Structure & Algorithms_3f9172e8"
+    },
+    {
+      "type": "java",
+      "name": "Program2",
+      "request": "launch",
+      "mainClass": "Program2",
+      "projectName": "Data Structure & Algorithms_3f9172e8"
+    },
+    {
+      "type": "java",
+      "name": "Program1",
+      "request": "launch",
+      "mainClass": "Program1",
+      "projectName": "Data Structure & Algorithms_3f9172e8"
+    },
+    {
+      "type": "java",
+      "name": "Program4",
+      "request": "launch",
+      "mainClass": "Program4",
+      "projectName": "Data Structure & Algorithms_3f9172e8"
+    },
+    {
+      "type": "java",
       "name": "productName",
       "request": "launch",
       "mainClass": "productName",
