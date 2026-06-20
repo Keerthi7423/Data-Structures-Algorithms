@@ -1,23 +1,31 @@
-print ("Hello World!");
+# =========================
+# Mini Challenge 1
+# =========================
 
-#Python IndentationIndentation refers to the spaces at the beginning of a code line.
-if 5 > 2:
-     print("Five is greater than two!")  
-if 5 > 2:
-        print("Five is greater than two!") 
+name = "Keerthi"
+age = 23
+company = "Skysecure"
 
-#Variables
-x = 5
-y = "Hello, World!"
+print(name)
+print(age)
+print(company)
 
-print(x)
-print(y)
-print("Python is fun!")
+print("\n-----------------\n")
 
-print("Hello"); print("How are you?"); print("Bye bye!")
+# =========================
+# Mini Challenge 2
+# =========================
 
+favorite_language = "Python"
 
-x = 5
-y = "5"
+print("My favorite language is", favorite_language)
 
-print(x == y)
+print("\n-----------------\n")
+
+# =========================
+# Mini Challenge 3
+# =========================
+
+user_name = input("Enter your name: ")
+
+print("Welcome", user_name)
