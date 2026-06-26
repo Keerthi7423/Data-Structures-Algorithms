@@ -1,0 +1,80 @@
+function findMedianSortedArrays(nums1, nums2) {
+
+    if (nums1.length > nums2.length) {
+        return findMedianSortedArrays(nums2, nums1);
+    }
+
+    let m = nums1.length;
+    let n = nums2.length;
+
+    let left = 0;
+    let right = m;
+
+    while (left <= right) {
+
+        let partitionA = Math.floor((left + right) / 2);
+
+        let partitionB =
+            Math.floor((m + n + 1) / 2) - partitionA;
+
+        let maxLeftA =
+            partitionA === 0
+            ? -Infinity
+            : nums1[partitionA - 1];
+
+        let minRightA =
+            partitionA === m
+            ? Infinity
+            : nums1[partitionA];
+
+        let maxLeftB =
+            partitionB === 0
+            ? -Infinity
+            : nums2[partitionB - 1];
+
+        let minRightB =
+            partitionB === n
+            ? Infinity
+            : nums2[partitionB];
+
+        if (
+
+            maxLeftA <= minRightB &&
+
+            maxLeftB <= minRightA
+
+        ) {
+
+            if ((m + n) % 2 === 0) {
+
+                return (
+
+                    Math.max(maxLeftA, maxLeftB)
+
+                    +
+
+                    Math.min(minRightA, minRightB)
+
+                ) / 2;
+
+            }
+
+            return Math.max(maxLeftA, maxLeftB);
+
+        }
+
+        else if (maxLeftA > minRightB) {
+
+            right = partitionA - 1;
+
+        }
+
+        else {
+
+            left = partitionA + 1;
+
+        }
+
+    }
+
+}
