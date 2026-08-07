@@ -7,3 +7,4 @@ Mastering python and Javascript from zero to hero &amp; Doing leetcode after lea
 3.valid anagram completed.
 4.completed intersection of two numbers.
 5.majority element completed.
+6.group anagram is completed.
