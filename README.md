@@ -8,3 +8,5 @@ Mastering python and Javascript from zero to hero &amp; Doing leetcode after lea
 4.completed intersection of two numbers.
 5.majority element completed.
 6.group anagram is completed.
+7.top k frequent element is completed.
+8.product of except array self is completed.
