@@ -1,4 +1,4 @@
-Data-Structures-Algorithms1
+Data-Structures-Algorithms
 Mastering python and Javascript from zero to hero &amp; Doing leetcode after learning python,js,c++,java.
 
 4-8-2026:
