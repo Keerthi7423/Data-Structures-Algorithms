@@ -13,3 +13,4 @@ Mastering python and Javascript from zero to hero &amp; Doing leetcode after lea
 9.best tim to buy & sell stock is completed.
 10.maximum subarray is completed.
 11.MAXIMUM AVERAGE SUBARRAY I is completed.
+12. Longest Substring Without Repeating Characters is completed.
