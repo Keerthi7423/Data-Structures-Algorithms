@@ -3,3 +3,4 @@ Mastering python and Javascript from zero to hero &amp; Doing leetcode after lea
 
 3-09-2026:
 1.#1 TwoSum is completed.
+2. ContainsDuplicate is completed.
